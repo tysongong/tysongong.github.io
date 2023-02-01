@@ -1,0 +1,71 @@
+*{
+font-family: JelleeBold;
+	color: #665544;
+	text-align: center;}
+h2 {
+	color:#665544;
+	}
+body {
+	width: 90%;
+	margin: 0 auto;
+	background-image: url("https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdaf093b9-8b64-4098-be35-8b5644165486_1280x720.gif");
+	background-repeat:no-repeat;
+	background-color:purple;
+	background-size: cover}
+#content {
+	overflow: auto;
+	}
+#feature, #footer {
+	margin: 1%;}
+.nav {
+background-color: #8CC63E}
+.column1, .column2, .column3 {
+	width: 31.3%;
+	float: left;
+	margin: 1%;}
+.column1 { 
+	background-color: #CBC3E3;
+}
+.column2 {
+	background-color: #BDB5D5
+}
+.column3 {
+	margin-right: 0%;
+	background-color: lavender
+}
+.feature {
+	background-color: #8CC63E;
+}
+li {
+	display: inline;
+	padding: 0.5em;}
+#nav{
+	background-color: #CF9FFF;
+	padding: 0.5em 0;}
+#feature{
+	height: 10em;
+	margin-bottom: 1em;
+	background-color: lavender;
+	opacity:0.3}
+.article {
+	height: 10em;
+	margin-bottom: 1em;}
+h1 {
+   font-family: 'JelleeBold';
+   font-weight: normal;
+   font-style: normal;
+   color:white
+}
+img {
+	float: right;
+	margin-left: 5px;
+	margin-right: 40px
+}
+#form {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  width: 20%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
