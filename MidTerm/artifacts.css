@@ -11,7 +11,8 @@ body {
 	background-image: url("https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdaf093b9-8b64-4098-be35-8b5644165486_1280x720.gif");
 	background-repeat:no-repeat;
 	background-color:purple;
-	background-size: cover}
+	background-size: cover;
+	background-attachment: fixed;}
 #content {
 	overflow: auto;
 	}
@@ -41,7 +42,8 @@ li {
 	padding: 0.5em;}
 #nav{
 	background-color: #CF9FFF;
-	padding: 0.5em 0;}
+	padding: 0.5em 0;
+	}
 #feature{
 	height: 10em;
 	margin-bottom: 1em;
@@ -56,8 +58,5 @@ h1 {
    font-style: normal;
    color:white
 }
-img {
-	float: right;
-	margin-left: 5px;
-	margin-right: 40px
-}
+h3{
+  text-align: center;}
