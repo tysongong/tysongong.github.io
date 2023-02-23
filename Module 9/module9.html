@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="description">
+<meta charset="utf-8">
+<link rel="stylesheet" href="module9.css" type="text/css">
+<title>Module 9</title>
+</head>
+<body>
+<p>Click anywhere...</p>
+<p><button>Clean</button></p>
+<script>
+  let para = document.querySelector("p");
+  let button = document.querySelector("button");
+  para.addEventListener("mousedown", () => {
+    console.log("Handler for paragraph.");
+  });
+  button.addEventListener("mousedown", event => {
+    console.log("Handler for button.");
+    if (event.button == 2) event.stopPropagation();
+  });
+  
+</script>
+<script src="module9.js"></script>
+<body>
