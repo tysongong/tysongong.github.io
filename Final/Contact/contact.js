@@ -44,7 +44,7 @@ var comments = document.getElementById("Comments").value;
 var errorMessages = "";
 //3) Do validation
 if (comments==="null" || comments==="") {
-       errorMessages += "<p>Comments are required</p>";
+       errorMessages += "<p>Comments are required.</p>";
         }
 		else {
                return true
